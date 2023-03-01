@@ -15,10 +15,10 @@ const HomeHero = () => {
                 className="wow fadeInUp mx-auto max-w-[900px] text-center"
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="mb-5 text-3xl font-bold leading-tight text-black  sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Tools to Grow Your YouTube Channel
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color  sm:text-lg md:text-xl">
                   The YouTube toolbox, that has multiple tools which will help
                   you to get everything that you need for running a YouTube
                   channle at one place .
@@ -32,25 +32,25 @@ const HomeHero = () => {
                   </Link> */}
                   <Link
                     href="/thumbnail-downloader"
-                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
                     Thumbnail Downloader
                   </Link>
                   {/* <Link
                     href="/keyword-research"
-                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
                     Keyword Research
                   </Link> */}
                   <Link
                     href="/seo-data-finder"
-                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
                     SEO Data Finder
                   </Link>
                   <Link
                     href="/trending-videos"
-                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
                     Trending Videos
                   </Link>

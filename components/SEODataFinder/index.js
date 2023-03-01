@@ -58,7 +58,7 @@ const SEODataFinder = () => {
         <div className="-mx-4 flex flex-wrap justify-center items-center  mb-8  lg:mb-16">
           <div className="w-full md:w-3/4 px-4 lg:w-3/5 px-[15]">
             <div
-              className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-2 lg:p-4 xl:p-4"
+              className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8  sm:p-2 lg:p-4 xl:p-4"
               data-wow-delay=".2s"
             >
               <form onSubmit={handleSearch}>
@@ -67,7 +67,7 @@ const SEODataFinder = () => {
                   name="URL"
                   onChange={handleInputChange}
                   placeholder="Enter YouTube Video URL"
-                  className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
+                  className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none "
                 />
                 <input
                   type="submit"
@@ -80,7 +80,7 @@ const SEODataFinder = () => {
         </div>
         {isSEOAvailable ? (
           <div className="-mx-4  rounded-xl">
-            <p className="mb-5 md:mt-2 lg:pt-6 px-12 text-3xl font-medium leading-tight text-black dark:text-white  sm:leading-tight  md:leading-tight text-center">
+            <p className="mb-5 md:mt-2 lg:pt-6 px-12 text-3xl font-medium leading-tight text-black  sm:leading-tight  md:leading-tight text-center">
               SEO Data of the Video
             </p>
             <div className="flex flex-col justify-center items-center">
@@ -113,7 +113,7 @@ const SEODataFinder = () => {
                     {seoData.hasOwnProperty("tags") ? (
                       <>
                         {seoData.tags.map((tag, index) => (
-                          <div className="inline-flex bg-white dark:bg-gray-900 dark:text-blue-200 w-max custom-max-width rounded-3xl text-sm md:text-xl p-2 px-6 text-gray-800 items-center m-2 mr-0 mb-0">
+                          <div className="inline-flex bg-white  w-max custom-max-width rounded-3xl text-sm md:text-xl p-2 px-6 text-gray-800 items-center m-2 mr-0 mb-0">
                             <p id="0" className="">
                               {tag}{" "}
                             </p>

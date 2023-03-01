@@ -7,7 +7,7 @@ const KeywordReseracher = () => {
         <div className="-mx-4 flex flex-wrap justify-center item-center mb-2 md:mb-6 lg:mb-16">
           <div className="w-full md:w-3/4 px-4 lg:w-3/5 px-[15]">
             <div
-              className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-2 lg:p-4 xl:p-4"
+              className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8  sm:p-2 lg:p-4 xl:p-4"
               data-wow-delay=".2s"
             >
               <form>
@@ -15,7 +15,7 @@ const KeywordReseracher = () => {
                   type="text"
                   name="keyword"
                   placeholder="Enter Your Search Keyword"
-                  className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
+                  className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none"
                 />
                 <input
                   type="submit"
@@ -34,7 +34,7 @@ const KeywordReseracher = () => {
                   Trending Video Topics
                 </p>
                 <div
-                  className="flex bg-white dark:bg-gray-900 dark:text-blue-200 w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
+                  className="flex bg-white  w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
                   // onClick={handleCopy}
                 >
                   <p
@@ -52,7 +52,7 @@ const KeywordReseracher = () => {
                   />
                 </div>
                 <div
-                  className="flex bg-white dark:bg-gray-900 dark:text-blue-200 w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
+                  className="flex bg-white  w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
                   // onClick={handleCopy}
                 >
                   <p
@@ -75,7 +75,7 @@ const KeywordReseracher = () => {
                   Trending Video Searches
                 </p>
                 <di5
-                  className="flex bg-white dark:bg-gray-900 dark:text-blue-200 w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
+                  className="flex bg-white  w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
                   // onClick={handleCopy}
                 >
                   <p
@@ -93,7 +93,7 @@ const KeywordReseracher = () => {
                   />
                 </di5>
                 <div
-                  className="flex bg-white dark:bg-gray-900 dark:text-blue-200 w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
+                  className="flex bg-white  w-max custom-max-width rounded-xl text-sm md:text-xl p-2 px-6 text-black items-center m-2 mt-4 mr-0 mb-0"
                   // onClick={handleCopy}
                 >
                   <p

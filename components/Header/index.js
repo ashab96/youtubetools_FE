@@ -21,7 +21,7 @@ const Header = () => {
                   alt="logo"
                   width={140}
                   height={30}
-                  className="w-full dark:hidden"
+                  className="w-full "
                 />
               </Link>
             </div>
@@ -34,24 +34,24 @@ const Header = () => {
                   className="absolute right-4 top-1/2 block translate-y-[-50%] rounded-lg px-3 py-[6px] ring-primary ring-2"
                 >
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300  ${
                       navbarOpen ? " top-[7px] rotate-45" : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300  ${
                       navbarOpen ? "opacity-0 " : " "
                     }`}
                   />
                   <span
-                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300 dark:bg-white ${
+                    className={`relative my-1.5 block h-0.5 w-[30px] bg-black transition-all duration-300  ${
                       navbarOpen ? " top-[-8px] -rotate-45" : " "
                     }`}
                   />
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-4 md:right-0 z-30 w-[240px] md:w-[250px] rounded border-[.5px] border-primary/50 bg-white py-4 px-6 duration-300 dark:border-body-color/20 dark:bg-dark  ${
+                  className={`navbar absolute right-4 md:right-0 z-30 w-[240px] md:w-[250px] rounded border-[.5px] border-primary/50 bg-white py-4 px-6 duration-300   ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
@@ -62,7 +62,7 @@ const Header = () => {
                       <li key={menuItem.id} className="group relative">
                         <Link
                           href={menuItem.path}
-                          className={`flex py-2 text-base text-dark group-hover:opacity-70  hover:text-primary dark:text-white`}
+                          className={`flex py-2 text-base  group-hover:opacity-70  hover:text-primary`}
                         >
                           {menuItem.title}
                         </Link>

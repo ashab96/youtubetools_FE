@@ -77,7 +77,7 @@ const ThumbnailGenerator = () => {
           </div>
           <div className="w-full md:w-3/4 px-4 lg:w-1/2 px-[15]">
             <div
-              className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8 dark:bg-primary/10 sm:p-11 lg:p-8 xl:p-11"
+              className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8  sm:p-11 lg:p-8 xl:p-11"
               data-wow-delay=".2s"
             >
               <form onSubmit={handleFormSubmit}>
@@ -86,7 +86,7 @@ const ThumbnailGenerator = () => {
                   name="URL"
                   onChange={handleInputChange}
                   placeholder="Enter YouTube Video URL"
-                  className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none dark:border-white dark:border-opacity-10 dark:bg-[#242B51] focus:dark:border-opacity-50"
+                  className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none"
                 />
                 <input
                   type="submit"
@@ -103,7 +103,7 @@ const ThumbnailGenerator = () => {
                     <Link
                       href={thumbnailData.medium.url}
                       target="_blank"
-                      className="mb-4 lg:mb-0 rounded-md border-2 border-body-color py-4 px-8 text-base text-center font-semibold text-black duration-300 ease-in-out hover:text-body-color dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                      className="mb-4 lg:mb-0 rounded-md border-2 border-body-color py-4 px-8 text-base text-center font-semibold text-black duration-300 ease-in-out hover:text-body-color "
                     >
                       Medium Quality
                       <br />
@@ -112,7 +112,7 @@ const ThumbnailGenerator = () => {
                     <Link
                       href={thumbnailData.high.url}
                       target="_blank"
-                      className="rounded-md border-2 border-body-color py-4 px-8 text-base font-semibold text-black text-center duration-300 ease-in-out hover:text-body-color dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                      className="rounded-md border-2 border-body-color py-4 px-8 text-base font-semibold text-black text-center duration-300 ease-in-out hover:text-body-color "
                     >
                       High Quality
                       <br />
@@ -123,7 +123,7 @@ const ThumbnailGenerator = () => {
                     <Link
                       href={thumbnailData.standard.url}
                       target="_blank"
-                      className="mb-4 lg:mb-0 rounded-md border-2 border-body-color py-4 px-8 text-base font-semibold text-black text-center duration-300 ease-in-out hover:text-body-color dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                      className="mb-4 lg:mb-0 rounded-md border-2 border-body-color py-4 px-8 text-base font-semibold text-black text-center duration-300 ease-in-out hover:text-body-color "
                     >
                       Standard Quality
                       <br />
@@ -133,7 +133,7 @@ const ThumbnailGenerator = () => {
                       <Link
                         href={thumbnailData.maxres.url}
                         target="_blank"
-                        className="mb-4 lg:mb-0 rounded-md border-2 border-body-color py-4 px-8 text-base font-semibold text-black text-center duration-300 ease-in-out hover:text-body-color dark:bg-white/20 dark:text-white dark:hover:bg-white/30"
+                        className="mb-4 lg:mb-0 rounded-md border-2 border-body-color py-4 px-8 text-base font-semibold text-black text-center duration-300 ease-in-out hover:text-body-color"
                       >
                         Max Resolution
                         <br />
