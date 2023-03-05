@@ -40,18 +40,18 @@ const DownloadSteps = () => {
             </div>
             <div className="flex flex-col items-center w-full md:w-1/3 px-4 text-center mt-8 md:mt-0">
               <Image
-                src="/images/logo/icons8-download-from-the-cloud.svg"
+                src="/images/logo/icons8-save.png"
                 alt="logo"
                 width={50}
                 height={30}
                 className="m-3"
               />
               <h6 className="m-1 text-md font-semibold text-black/[80%]">
-                Download
+                Save
               </h6>
               <p className=" text-md  text-black/[80%]">
-                Hit the Download button to store the YouTube thumbnail image on
-                your device in .JPG format.
+                Now you can save the list of trending youtube videos list for
+                your further reference.
               </p>
             </div>
           </div>
