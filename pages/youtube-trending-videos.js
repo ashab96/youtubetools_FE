@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTitle from "@/components/Common/PageTitle";
 import TrendingVideosGenerator from "@/components/TrendingVideos";
+import TrendingVideosToolFlow from "@/components/TrendingVideos/TrendingVideosToolFlow";
 import ScrollToTop from "@/components/ScrollToTop";
 const TrendingVideos = () => {
   return (
@@ -38,6 +39,7 @@ const TrendingVideos = () => {
         <Header />
         <PageTitle pageName="YouTube Trending Videos" />
         <TrendingVideosGenerator />
+        <TrendingVideosToolFlow />
         <Footer />
         <ScrollToTop />
       </div>

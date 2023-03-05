@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTitle from "@/components/Common/PageTitle";
 import SEODataFinder from "@/components/SEODataFinder";
+import SEOToolFlow from "@/components/SEODataFinder/SEOToolFlow";
 import ScrollToTop from "@/components/ScrollToTop";
 const SEOData = () => {
   return (
@@ -39,6 +40,7 @@ const SEOData = () => {
         <Header />
         <PageTitle pageName="YouTube Title and Description Extractor" />
         <SEODataFinder />
+        <SEOToolFlow />
         <Footer />
         <ScrollToTop />
       </div>

@@ -34,7 +34,10 @@ const TrendingVideosGenerator = () => {
   };
   console.log(videosData);
   return (
-    <section id="contact" className="overflow-hidden py-4 md:py-8 lg:py-8">
+    <section
+      id="contact"
+      className="overflow-hidden py-4 md:py-8 lg:py-8 mb-16 md:mb-20"
+    >
       <div className="container">
         <div className="-mx-4 flex flex-wrap justify-center item-center mb-16">
           <div className="w-full md:w-3/4 px-4 lg:w-3/5 px-[15]">

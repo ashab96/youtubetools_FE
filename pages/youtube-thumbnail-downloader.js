@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTitle from "@/components/Common/PageTitle";
 import ThumbnailGenerator from "@/components/Thumbnail";
+import ThumbnailToolFlow from "@/components/Thumbnail/ThumbnailToolFlow";
 import ScrollToTop from "@/components/ScrollToTop";
 
 const Thumbnail = () => {
@@ -38,6 +39,7 @@ const Thumbnail = () => {
         <Header />
         <PageTitle pageName="YouTube Thumbnail Downloader" />
         <ThumbnailGenerator />
+        <ThumbnailToolFlow />
         <Footer />
         <ScrollToTop />
       </div>

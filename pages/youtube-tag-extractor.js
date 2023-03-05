@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PageTitle from "@/components/Common/PageTitle";
 import YoutubeTag from "@/components/TagExtractor";
+import TagToolFlow from "@/components/TagExtractor/TagToolFlow";
 import ScrollToTop from "@/components/ScrollToTop";
 
 const TagExtractor = () => {
@@ -38,6 +39,7 @@ const TagExtractor = () => {
         <Header />
         <PageTitle pageName="YouTube Tag Extractor" />
         <YoutubeTag />
+        <TagToolFlow />
         <Footer />
         <ScrollToTop />
       </div>

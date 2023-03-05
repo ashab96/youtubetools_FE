@@ -2,31 +2,37 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
     <loc>http://localhost:3000</loc>
-    <lastmod>2023-03-05T03:52:06.191Z</lastmod>
+    <lastmod>2023-03-05T12:37:00.509Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://localhost:3000/keyword-research</loc>
-    <lastmod>2023-03-05T03:52:06.191Z</lastmod>
+    <lastmod>2023-03-05T12:37:00.509Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:3000/seo-data-finder</loc>
-    <lastmod>2023-03-05T03:52:06.191Z</lastmod>
+    <loc>http://localhost:3000/youtube-tag-extractor</loc>
+    <lastmod>2023-03-05T12:37:00.509Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:3000/thumbnail-downloader</loc>
-    <lastmod>2023-03-05T03:52:06.191Z</lastmod>
+    <loc>http://localhost:3000/youtube-thumbnail-downloader</loc>
+    <lastmod>2023-03-05T12:37:00.509Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:3000/trending-videos</loc>
-    <lastmod>2023-03-05T03:52:06.191Z</lastmod>
+    <loc>http://localhost:3000/youtube-trending-videos</loc>
+    <lastmod>2023-03-05T12:37:00.509Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:3000/youtube-video-title-and-description-extractor</loc>
+    <lastmod>2023-03-05T12:37:00.509Z</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

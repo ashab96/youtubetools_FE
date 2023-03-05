@@ -52,7 +52,10 @@ const SEODataFinder = () => {
   };
 
   return (
-    <section id="contact" className="overflow-hidden py-4 md:py-8 lg:py-8">
+    <section
+      id="contact"
+      className="overflow-hidden pt-6 md:pt-10 lg:pt-10 mb-16 md:mb-20"
+    >
       <div className="container">
         <ToastContainer />
         <div className="-mx-4 flex flex-wrap justify-center items-center  mb-8  lg:mb-16">
