@@ -12,17 +12,16 @@ const HomeHero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[900px] text-center"
+                className="wow fadeInUp mx-auto lg:max-w-[1000px] max-w-[950px] text-center"
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black  sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Tools to Grow Your YouTube Channel
+                  Free Tools for YouTubers
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color  sm:text-lg md:text-xl">
-                  The YouTube toolbox, that has multiple tools which will help
-                  you to get everything that you need for running a YouTube
-                  channle at one place .
-                </p>
+                <h2 className="mb-12 text-base font-medium !leading-relaxed text-body-color  sm:text-lg md:text-xl">
+                  This YouTube toolbox has everything you will ever need to grow
+                  your YouTube channel
+                </h2>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   {/* <Link
                     href="https://nextjstemplates.com/templates/startup"
@@ -31,7 +30,7 @@ const HomeHero = () => {
                     Thumbnail Downloader
                   </Link> */}
                   <Link
-                    href="/thumbnail-downloader"
+                    href="/youtube-thumbnail-downloader"
                     className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
                     Thumbnail Downloader
@@ -43,13 +42,19 @@ const HomeHero = () => {
                     Keyword Research
                   </Link> */}
                   <Link
-                    href="/seo-data-finder"
+                    href="/youtube-video-title-and-description-extractor"
                     className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
-                    SEO Data Finder
+                    Title & Description Extractor
                   </Link>
                   <Link
-                    href="/trending-videos"
+                    href="/youtube-tag-extractor"
+                    className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
+                  >
+                    Tag Extractor
+                  </Link>
+                  <Link
+                    href="/youtube-trending-videos"
                     className="rounded-md bg-black py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80 "
                   >
                     Trending Videos

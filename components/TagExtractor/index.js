@@ -7,10 +7,10 @@ import getVideoId from "get-video-id";
 import CopyToClipboard from "../Common/CopyToClipboard";
 import CopyToClipboardTag from "../Common/CopyToClipboardTag";
 
-const SEODataFinder = () => {
-  const [isSEOAvailable, setisSEOAvailable] = useState(false);
+const YoutubeTag = () => {
+  const [isTagsAvailable, setisTagsAvailable] = useState(false);
   const [url, setUrl] = useState("");
-  const [seoData, setSEOData] = useState("");
+  const [TagsData, setTagsData] = useState("");
 
   const handleInputChange = (event) => {
     setUrl(event.target.value);
@@ -42,20 +42,19 @@ const SEODataFinder = () => {
         console.log(response);
         if (response.res.data.data.items[0]) {
           let data = response.res.data.data.items[0];
-          setisSEOAvailable(true);
-          setSEOData(data.snippet);
+          setisTagsAvailable(true);
+          setTagsData(data.snippet);
           // console.log(thumbnailData);
         }
       })();
       return () => {};
     }
   };
-
   return (
     <section id="contact" className="overflow-hidden py-4 md:py-8 lg:py-8">
       <div className="container">
         <ToastContainer />
-        <div className="-mx-4 flex flex-wrap justify-center items-center  mb-8  lg:mb-16">
+        <div className="-mx-4 flex flex-wrap justify-center items-center  mb-8  lg:mb-8">
           <div className="w-full md:w-3/4 px-4 lg:w-3/5 px-[15]">
             <div
               className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8  sm:p-2 lg:p-4 xl:p-4"
@@ -71,48 +70,29 @@ const SEODataFinder = () => {
                 />
                 <input
                   type="submit"
-                  value="Extract Data"
+                  value="Extract Tags"
                   className="mx-auto block duration-80 md:mb-4 cursor-pointer rounded-md border border-transparent bg-primary py-2 px-6  text-center text-base font-medium text-white outline-none transition ease-in-out hover:bg-body-color hover:shadow-signUp focus-visible:shadow-none"
                 />
               </form>
             </div>
           </div>
         </div>
-        {isSEOAvailable ? (
+        {isTagsAvailable ? (
           <div className="-mx-4  rounded-xl">
             <p className="mb-5 md:mt-2 lg:pt-6 px-12 text-3xl font-medium leading-tight text-black  sm:leading-tight  md:leading-tight text-center">
-              SEO Data of the Video
+              Tags of the Video
             </p>
             <div className="flex flex-col justify-center items-center">
-              <div className="w-11/12 md:w-8/12 mb-4">
-                <div className="flex">
-                  <p className="py-4 mx-2 text-md font-medium">Title</p>
-                  <CopyToClipboard textData={seoData.title} />
-                </div>
-
-                <div className="p-4 mx-2 text-md font-medium h-32 bg-primary/[8%] rounded-md mx-2 p-8 overflow-y-auto max-h-84 scrollbar ">
-                  <div className=" ">{seoData.title}</div>
-                </div>
-              </div>
-              <div className="w-11/12 md:w-8/12 mb-4">
-                <div className="flex">
-                  <p className="py-4 mx-2 text-md font-medium">Description</p>
-                  <CopyToClipboard textData={seoData.description} />
-                </div>
-                <div className="h-80 bg-primary/[8%] rounded-md mx-2 p-8 overflow-y-auto max-h-96 scrollbar">
-                  <div className=" ">{seoData.description}</div>
-                </div>
-              </div>
-              {/* <div className="w-11/12 md:w-8/12 ">
+              <div className="w-11/12 md:w-8/12 ">
                 <div className="flex">
                   <p className="py-4 mx-2 text-md font-medium">Tags</p>
-                  <CopyToClipboard textData={seoData.tags} />
+                  <CopyToClipboard textData={TagsData.tags} />
                 </div>
-                <div className="h-72 bg-primary/[8%] rounded mx-2 p-8 overflow-y-auto max-h-84 scrollbar">
+                <div className="h-84 bg-primary/[8%] rounded mx-2 p-8 overflow-y-auto max-h-96 scrollbar">
                   <div className=" ">
-                    {seoData.hasOwnProperty("tags") ? (
+                    {TagsData.hasOwnProperty("tags") ? (
                       <>
-                        {seoData.tags.map((tag, index) => (
+                        {TagsData.tags.map((tag, index) => (
                           <div className="inline-flex bg-white  w-max custom-max-width rounded-3xl text-sm md:text-xl p-2 px-6 text-gray-800 items-center m-2 mr-0 mb-0">
                             <p id="0" className="">
                               {tag}{" "}
@@ -126,7 +106,7 @@ const SEODataFinder = () => {
                     )}
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         ) : (
@@ -137,4 +117,4 @@ const SEODataFinder = () => {
   );
 };
 
-export default SEODataFinder;
+export default YoutubeTag;

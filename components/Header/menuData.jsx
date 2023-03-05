@@ -1,8 +1,8 @@
 const menuData = [
   {
     id: 1,
-    title: "Thumbnail Downloader",
-    path: "/thumbnail-downloader",
+    title: "YouTube Thumbnail Downloader",
+    path: "/youtube-thumbnail-downloader",
     newTab: false,
   },
   // {
@@ -13,14 +13,20 @@ const menuData = [
   // },
   {
     id: 3,
-    title: "SEO Data Finder",
-    path: "/seo-data-finder",
+    title: "YouTube Title & Description Extractor",
+    path: "/youtube-video-title-and-description-extractor",
     newTab: false,
   },
   {
     id: 4,
-    title: "Trending Videos",
-    path: "/trending-videos",
+    title: "Youtube Tag Extractor",
+    path: "/youtube-tag-extractor",
+    newTab: false,
+  },
+  {
+    id: 5,
+    title: "YouTube Trending Videos",
+    path: "/youtube-trending-videos",
     newTab: false,
   },
 ];

@@ -85,7 +85,7 @@ const ThumbnailGenerator = () => {
                   type="text"
                   name="URL"
                   onChange={handleInputChange}
-                  placeholder="Enter YouTube Video URL"
+                  placeholder="Enter any YouTube Video URL"
                   className="mb-4 w-full rounded-md border-2 border-body-color border-opacity-20 py-3 px-6 text-base font-medium text-black placeholder-black/60 outline-none focus:border-primary focus:border-opacity-100 focus-visible:shadow-none"
                 />
                 <input
