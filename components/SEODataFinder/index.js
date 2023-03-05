@@ -52,10 +52,7 @@ const SEODataFinder = () => {
   };
 
   return (
-    <section
-      id="contact"
-      className="overflow-hidden pt-6 md:pt-10 lg:pt-10 mb-16 md:mb-20"
-    >
+    <section id="contact" className="overflow-hidden pt-6 md:pt-10 lg:pt-10 ">
       <div className="container">
         <ToastContainer />
         <div className="-mx-4 flex flex-wrap justify-center items-center  mb-8  lg:mb-16">
@@ -82,7 +79,7 @@ const SEODataFinder = () => {
           </div>
         </div>
         {isSEOAvailable ? (
-          <div className="-mx-4  rounded-xl">
+          <div className="-mx-4  rounded-xl mb-16 md:mb-20">
             <p className="mb-5 md:mt-2 lg:pt-6 px-12 text-3xl font-medium leading-tight text-black  sm:leading-tight  md:leading-tight text-center">
               SEO Data of the Video
             </p>

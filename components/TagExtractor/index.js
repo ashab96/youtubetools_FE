@@ -57,7 +57,7 @@ const YoutubeTag = () => {
     >
       <div className="container">
         <ToastContainer />
-        <div className="-mx-4 flex flex-wrap justify-center items-center  mb-8  lg:mb-8">
+        <div className="-mx-4 flex flex-wrap justify-center items-center mb-4 md:mb-12">
           <div className="w-full md:w-3/4 px-4 lg:w-3/5 px-[15]">
             <div
               className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8  sm:p-2 lg:p-4 xl:p-4"

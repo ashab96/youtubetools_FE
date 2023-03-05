@@ -34,12 +34,9 @@ const TrendingVideosGenerator = () => {
   };
   console.log(videosData);
   return (
-    <section
-      id="contact"
-      className="overflow-hidden py-4 md:py-8 lg:py-8 mb-16 md:mb-20"
-    >
+    <section id="contact" className="overflow-hidden py-4 md:py-8 lg:py-8 ">
       <div className="container">
-        <div className="-mx-4 flex flex-wrap justify-center item-center mb-16">
+        <div className="-mx-4 flex flex-wrap justify-center item-center mb-4 md:mb-12">
           <div className="w-full md:w-3/4 px-4 lg:w-3/5 px-[15]">
             <div
               className="wow fadeInUp relative z-10 rounded-md bg-primary/[3%] p-8  sm:p-2 lg:p-4 xl:p-4"
@@ -63,7 +60,7 @@ const TrendingVideosGenerator = () => {
           </div>
         </div>
         {isVideosAvailable ? (
-          <div className="-mx-4 bg-primary/[5%] rounded-xl">
+          <div className="-mx-4 bg-primary/[5%] rounded-md  mb-4 md:mb-8">
             <p className="mb-5 mt-2 pt-6 px-12 text-3xl font-medium leading-tight text-black   sm:leading-tight  md:leading-tight text-center">
               Trending Videos
             </p>
