@@ -36,6 +36,10 @@ export default function Home() {
         ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/logo/favicon.png" />
+        <meta
+          name="google-site-verification"
+          content="CN9gDdgRncyX95FmRPo4UjxrIxOq4VeCaW8z1HntMb0"
+        />
       </Head>
       <div>
         <Header />
