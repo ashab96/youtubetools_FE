@@ -3,7 +3,7 @@ const globby = require("globby");
 function addPage(page) {
   const path = page.replace("pages", "").replace(".js", "").replace(".mdx", "");
   const route = path === "/index" ? "" : path;
-  const BASE_URL = "http://localhost:3000";
+  const BASE_URL = "https://toolsforyoutubers.info";
   return `  <url>
     <loc>${`${BASE_URL}${route}`}</loc>
     <lastmod>${new Date().toISOString()}</lastmod>

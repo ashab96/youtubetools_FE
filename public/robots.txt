@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://veggiesaladrecipes.com/
+Host: https://toolsforyoutubers.info/
 
 # Sitemaps
-Sitemap: https://veggiesaladrecipes.com/sitemap.xml
+Sitemap: https://toolsforyoutubers.info/sitemap.xml
