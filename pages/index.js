@@ -66,7 +66,7 @@ export default function Home() {
           property="og:description"
           content="Free essential tools for YouTubers: Thumbnail downloader, Title and Description Extractor, Tags Extractor and trending videos extractor. Try them out now!"
         />
-        <meta property="og:image" content="/images/logo/favicon.png" />
+        <meta property="og:image" content="/images/logo/Logo_og.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -82,7 +82,7 @@ export default function Home() {
           property="twitter:description"
           content="Free essential tools for YouTubers: Thumbnail downloader, Title and Description Extractor, Tags Extractor and trending videos extractor. Try them out now!"
         />
-        <meta property="twitter:image" content="/images/logo/favicon.png" />
+        <meta property="twitter:image" content="/images/logo/Logo_og.png" />
         <meta
           name="google-site-verification"
           content="CN9gDdgRncyX95FmRPo4UjxrIxOq4VeCaW8z1HntMb0"
