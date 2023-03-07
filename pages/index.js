@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
+        {/* <title>
           Create Winning Videos with Free YouTube Tools | Thumbnail Downloader,
           SEO Data Extractor, Trending Videos Extractor
         </title>
@@ -36,6 +36,53 @@ export default function Home() {
         ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/logo/favicon.png" />
+        <meta
+          name="google-site-verification"
+          content="CN9gDdgRncyX95FmRPo4UjxrIxOq4VeCaW8z1HntMb0"
+        /> */}
+
+        <title>
+          Create Winning Videos with Free YouTube Tools | Thumbnail Downloader,
+          SEO Data Extractor, Trending Videos Extractor
+        </title>
+        <meta
+          name="title"
+          content=" Create Winning Videos with Free YouTube Tools | Thumbnail Downloader,
+          SEO Data Extractor, Trending Videos Extractor"
+        />
+        <meta
+          name="description"
+          content="Free essential tools for YouTubers: Thumbnail downloader, Title and Description Extractor, Tags Extractor and trending videos extractor. Try them out now!"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://toolsforyoutubers.info/" />
+        <meta
+          property="og:title"
+          content=" Create Winning Videos with Free YouTube Tools | Thumbnail Downloader,
+          SEO Data Extractor, Trending Videos Extractor"
+        />
+        <meta
+          property="og:description"
+          content="Free essential tools for YouTubers: Thumbnail downloader, Title and Description Extractor, Tags Extractor and trending videos extractor. Try them out now!"
+        />
+        <meta property="og:image" content="/images/logo/favicon.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://toolsforyoutubers.info/"
+        />
+        <meta
+          property="twitter:title"
+          content=" Create Winning Videos with Free YouTube Tools | Thumbnail Downloader,
+          SEO Data Extractor, Trending Videos Extractor"
+        />
+        <meta
+          property="twitter:description"
+          content="Free essential tools for YouTubers: Thumbnail downloader, Title and Description Extractor, Tags Extractor and trending videos extractor. Try them out now!"
+        />
+        <meta property="twitter:image" content="/images/logo/favicon.png" />
         <meta
           name="google-site-verification"
           content="CN9gDdgRncyX95FmRPo4UjxrIxOq4VeCaW8z1HntMb0"
