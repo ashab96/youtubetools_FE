@@ -10,7 +10,7 @@ const SEOData = () => {
   return (
     <>
       <Head>
-        <title>
+        {/* <title>
           {" "}
           YouTube Title and Description Extractor Tool | Get Insights for Your
           Video SEO
@@ -34,7 +34,51 @@ const SEOData = () => {
           content="Extract titles and descriptions from any YouTube video with our free tool. Analyze your competitors' strategies and improve your own video SEO!"
         ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/logo/favicon.png" />
+        <link rel="icon" href="/images/logo/favicon.png" /> */}
+        <title>
+          YouTube Title and Description Extractor Tool | Get Insights for Your
+          Video SEO
+        </title>
+        <meta
+          name="title"
+          content=" YouTube Title and Description Extractor Tool | Get Insights for Your
+          Video SEO"
+        />
+        <meta
+          name="description"
+          content="Extract titles and descriptions from any YouTube video with our free tool. Analyze your competitors' strategies and improve your own video SEO!"
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://toolsforyoutubers.info/" />
+        <meta
+          property="og:title"
+          content=" YouTube Title and Description Extractor Tool | Get Insights for Your
+          Video SEO"
+        />
+        <meta
+          property="og:description"
+          content="Extract titles and descriptions from any YouTube video with our free tool. Analyze your competitors' strategies and improve your own video SEO!"
+        />
+        <meta property="og:image" content="/images/logo/Logo_og.png" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="200" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://toolsforyoutubers.info/"
+        />
+        <meta
+          property="twitter:title"
+          content=" YouTube Title and Description Extractor Tool | Get Insights for Your
+          Video SEO"
+        />
+        <meta
+          property="twitter:description"
+          content="Extract titles and descriptions from any YouTube video with our free tool. Analyze your competitors' strategies and improve your own video SEO!"
+        />
+        <meta property="twitter:image" content="/images/logo/Logo_og.png" />
       </Head>
       <div>
         <Header />

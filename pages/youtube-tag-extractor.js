@@ -11,7 +11,7 @@ const TagExtractor = () => {
   return (
     <>
       <Head>
-        <title>
+        {/* <title>
           YouTube Tag Extractor Tool | Improve Your Video SEO with Relevant Tags
         </title>
         <meta
@@ -33,6 +33,47 @@ const TagExtractor = () => {
           content="Extract tags from any YouTube video and optimize your own video SEO. Our free tool helps you find relevant tags and increase your video's visibility."
         ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/logo/favicon.png" /> */}
+        <title>
+          YouTube Tag Extractor Tool | Improve Your Video SEO with Relevant Tags
+        </title>
+        <meta
+          name="title"
+          content=" YouTube Tag Extractor Tool | Improve Your Video SEO with Relevant Tags"
+        />
+        <meta
+          name="description"
+          content="Extract tags from any YouTube video and optimize your own video SEO. Our free tool helps you find relevant tags and increase your video's visibility."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://toolsforyoutubers.info/" />
+        <meta
+          property="og:title"
+          content=" YouTube Tag Extractor Tool | Improve Your Video SEO with Relevant Tags"
+        />
+        <meta
+          property="og:description"
+          content="Extract tags from any YouTube video and optimize your own video SEO. Our free tool helps you find relevant tags and increase your video's visibility."
+        />
+        <meta property="og:image" content="/images/logo/Logo_og.png" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="200" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://toolsforyoutubers.info/"
+        />
+        <meta
+          property="twitter:title"
+          content=" YouTube Tag Extractor Tool | Improve Your Video SEO with Relevant Tags"
+        />
+        <meta
+          property="twitter:description"
+          content="Extract tags from any YouTube video and optimize your own video SEO. Our free tool helps you find relevant tags and increase your video's visibility."
+        />
+        <meta property="twitter:image" content="/images/logo/Logo_og.png" />
         <link rel="icon" href="/images/logo/favicon.png" />
       </Head>
       <div>

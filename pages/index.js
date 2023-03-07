@@ -85,6 +85,7 @@ export default function Home() {
           content="Free essential tools for YouTubers: Thumbnail downloader, Title and Description Extractor, Tags Extractor and trending videos extractor. Try them out now!"
         />
         <meta property="twitter:image" content="/images/logo/Logo_og.png" />
+        <link rel="icon" href="/images/logo/favicon.png" />
         <meta
           name="google-site-verification"
           content="CN9gDdgRncyX95FmRPo4UjxrIxOq4VeCaW8z1HntMb0"
