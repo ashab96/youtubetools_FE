@@ -58,12 +58,9 @@ const DownloadDetails = () => {
           </div>
           <div className="mb-16 md:mb-20">
             <ToolFeatureTitle Pageh2="Step 2: Add the URL" />
-            <Image
+            <img
               className="w-3/4 text-center ml-auto mr-auto md:mb-4 mb-4  border-[1.5px] border-body-color/[50%]"
               src="/images/steps/add_url.gif"
-              alt="logo"
-              width={512}
-              height={30}
             />
             <p className="text-left text-lg font-normal text-black/[90%] leading-8 p-4">
               Paste the URL in the corresponding field of our thumbnail
