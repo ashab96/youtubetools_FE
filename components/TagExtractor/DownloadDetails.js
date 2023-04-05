@@ -50,7 +50,7 @@ const DownloadDetails = () => {
               app, locate the Share button and copy the URL to your clipboard.
             </p>
           </div>
-          <div className="mb-16 md:mb-20">
+          {/* <div className="mb-16 md:mb-20">
             <ToolFeatureTitle Pageh2="Step 2: Add the URL" />
             <Image
               className="w-3/4 text-center ml-auto mr-auto md:mb-4 mb-4  border-[1.5px] border-body-color/[50%]"
@@ -64,7 +64,7 @@ const DownloadDetails = () => {
               click "Extract Tags". you’ll see the tags of the video generated
               in the window.
             </p>
-          </div>
+          </div> */}
           <div className="mb-16 md:mb-20">
             <ToolFeatureTitle Pageh2="Step 3: Copy Video Tags" />
             <Image
